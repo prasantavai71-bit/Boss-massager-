@@ -1,14 +1,14 @@
 
-import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import Sidebar from './Sidebar';
 import ChatWindow from './ChatWindow';
 import ProfileView from './ProfileView';
 import ContactProfileView from './ContactProfileView';
 import CallOverlay from './CallOverlay';
 import StoryViewer from './StoryViewer';
-import { Contact, Message, CallState, CallType, Story, StoryReply } from './types';
 import { geminiService } from './gemini';
 import { Icons } from './constants';
+
 
 const INITIAL_CONTACTS: Contact[] = [
   { id: '1', name: 'Boss Anik', avatar: 'https://picsum.photos/seed/anik/100', online: true, unreadCount: 2, lastMessage: 'The project is ready, boss!' },
