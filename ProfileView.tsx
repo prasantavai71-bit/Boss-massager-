@@ -1,6 +1,6 @@
 
 import React, { useState, useRef } from 'react';
-import { Icons } from '../constants';
+import { Icons, COLORS } from './constants';
 import { Contact } from '../types';
 
 interface ProfileViewProps {
