@@ -1,8 +1,9 @@
 
-import React, { useState, useRef, useEffect, useCallback, memo } from 'react';
-import { Icons, COLORS } from '../constants';
-import { Contact, Message } from '../types';
-import { geminiService } from '../services/gemini';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
+import { Icons, COLORS } from './constants';
+import { Contact, Message } from './types';
+import { geminiService } from './gemini';
+
 
 interface ChatWindowProps {
   contact: Contact;
