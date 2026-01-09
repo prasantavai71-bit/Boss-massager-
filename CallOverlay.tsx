@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { GoogleGenAI, LiveServerMessage, Modality } from '@google/genai';
 import { Contact, CallType, CallStatus } from '../types';
-import { Icons } from '../constants';
+import { Icons } from './constants';
 
 interface CallOverlayProps {
   contact: Contact;
