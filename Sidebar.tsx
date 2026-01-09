@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo, useRef, memo } from 'react';
-import { Icons, COLORS } from '../constants';
-import { Contact, Story } from '../types';
+import { Icons, COLORS } from './constants';
+import { Contact, Story } from './types';
 
 interface SidebarProps {
   contacts: Contact[];
