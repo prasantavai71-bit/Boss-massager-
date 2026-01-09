@@ -1,13 +1,13 @@
 
 import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
-import Sidebar from './components/Sidebar';
-import ChatWindow from './components/ChatWindow';
-import ProfileView from './components/ProfileView';
-import ContactProfileView from './components/ContactProfileView';
-import CallOverlay from './components/CallOverlay';
-import StoryViewer from './components/StoryViewer';
+import Sidebar from './Sidebar';
+import ChatWindow from './ChatWindow';
+import ProfileView from './ProfileView';
+import ContactProfileView from './ContactProfileView';
+import CallOverlay from './CallOverlay';
+import StoryViewer from './StoryViewer';
 import { Contact, Message, CallState, CallType, Story, StoryReply } from './types';
-import { geminiService } from './services/gemini';
+import { geminiService } from './gemini';
 import { Icons } from './constants';
 
 const INITIAL_CONTACTS: Contact[] = [
