@@ -1,0 +1,10 @@
+
+{
+  "name": "Boss Massager - WhatsApp Clone",
+  "description": "A high-fidelity WhatsApp clone built with React, Tailwind CSS, and Gemini AI integration for smart conversations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
