@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState, useRef, useCallback } from 'react';
 import { Story } from '../types';
-import { Icons } from '../constants';
+import { Icons } from './constants';
 
 interface StoryViewerProps {
   stories: Story[];
